@@ -84,10 +84,6 @@ workflows:
             - dependencies
 
       - code_climate:
-          filters:
-            branches:
-              only:
-                - master
           requires:
             - test
             - lint
@@ -99,10 +95,6 @@ workflows:
             - code_climate
 
       - semantic_release:
-          filters:
-            branches:
-              only:
-                - master
           requires:
             - build
 
