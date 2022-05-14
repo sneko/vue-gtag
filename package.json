@@ -116,5 +116,8 @@
       "master",
       "1.x"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
