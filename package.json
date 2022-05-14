@@ -64,14 +64,14 @@
     "vue",
     "vuejs"
   ],
-  "main": "./dist/vue-gtag.js",
-  "module": "./dist/vue-gtag.esm.js",
-  "unpkg": "./dist/vue-gtag.umd.js",
-  "jsdelivr": "./dist/vue-gtag.umd.js",
-  "types": "vue-gtag.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "unpkg": "./dist/index.umd.js",
+  "jsdelivr": "./dist/index.umd.js",
+  "types": "index.d.ts",
   "files": [
     "dist",
-    "vue-gtag.d.ts"
+    "index.d.ts"
   ],
   "bugs": {
     "url": "https://github.com/sneko/vue-gtag/issues"

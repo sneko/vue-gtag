@@ -1,12 +1,9 @@
 import path from "path";
-import { name } from "./package.json";
 
 const isDev = process.env.NODE_ENV === "dev";
 
 const config = {
-  input: {
-    [name]: "./src/index.js",
-  },
+  input: "./src/index.js",
   externals: ["vue"],
   plugins: {
     alias: {
