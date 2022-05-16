@@ -23,7 +23,7 @@
 
 # vue-gtag
 
-:bangbang: | This package `@sneko/vue-gtag` is published on NPM to allow using UTM paramaters features until the original community package `vue-gtag` implement them.
+:bangbang: | This package `@sneko/vue-gtag` is published on NPM to allow using UTM paramaters features until the original community package `vue-gtag` implement them. _Please see latest tags and releases for those modifications (they are not on the `master` branch)._
 :---: | :---
 
 Global Site Tag plugin for Vue
